@@ -1,0 +1,11 @@
+{
+    "name": "signal-select",
+    "version": "0.1.0",
+    "title": "Signal Select",
+    "author": "blaczko",
+    "factorio_version": "1.1",
+    "dependencies": [
+        "base >= 1.1"
+    ],
+    "description": "A simple GUI for selecting singals, as a sort of keypad"
+}
