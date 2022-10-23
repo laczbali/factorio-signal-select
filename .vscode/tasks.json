@@ -11,5 +11,15 @@
                 }
             }
         },
+        {
+            "label": "( RUN-FACTORIO )",
+            "type": "shell",
+            "command": "Start-Process steam://rungameid/427520",
+            "options": {
+                "statusbar": {
+                    "color": "#00FF00"
+                }
+            }
+        },
     ]
 }
