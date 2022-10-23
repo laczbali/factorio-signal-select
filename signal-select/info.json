@@ -3,9 +3,11 @@
     "version": "0.1.0",
     "title": "Signal Select",
     "author": "blaczko",
+    "homepage": "https://github.com/laczbali/factorio-signal-select",
     "factorio_version": "1.1",
     "dependencies": [
-        "base >= 1.1"
+        "base >= 1.1",
+        "flib >= 0.8.0"
     ],
     "description": "A simple GUI for selecting singals, as a sort of keypad"
 }

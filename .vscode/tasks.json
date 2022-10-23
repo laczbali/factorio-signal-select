@@ -2,12 +2,12 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "( COPY-TO-MODS )",
+            "label": "COPY-TO-MODS",
             "type": "shell",
             "command": "Remove-Item -Path $env:APPDATA\\factorio\\mods\\signal-select -Recurse -ErrorAction SilentlyContinue; Copy-Item .\\signal-select $env:APPDATA\\factorio\\mods -Recurse",
             "options": {
                 "statusbar": {
-                    "color": "#00FF00"
+                    "hide": true
                 }
             }
         },
@@ -19,7 +19,8 @@
                 "statusbar": {
                     "color": "#00FF00"
                 }
-            }
+            },
+            "dependsOn": "COPY-TO-MODS"
         },
     ]
 }
