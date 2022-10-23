@@ -6,8 +6,7 @@
     "homepage": "https://github.com/laczbali/factorio-signal-select",
     "factorio_version": "1.1",
     "dependencies": [
-        "base >= 1.1",
-        "flib >= 0.8.0"
+        "base >= 1.1"
     ],
     "description": "A simple GUI for selecting singals, as a sort of keypad"
 }
